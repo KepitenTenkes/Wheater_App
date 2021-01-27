@@ -6,26 +6,21 @@
   align-items: center;
   justify-content: center;
 
-  background: rgb(249, 157, 149);
+  background: #6277b6;
   background: -moz-linear-gradient(
     90deg,
-    rgba(249, 157, 149, 1) 20%,
-    rgba(218, 107, 115, 1) 50%,
-    rgba(207, 99, 103, 1) 100%
+    #6a92f2 20%,
+    #79caf9 50%,
+    #b0def8 100%
   );
   background: -webkit-linear-gradient(
     90deg,
-    rgba(249, 157, 149, 1) 20%,
-    rgba(218, 107, 115, 1) 50%,
-    rgba(207, 99, 103, 1) 100%
+    #6a92f2 20%,
+    #79caf9 50%,
+    #b0def8 100%
   );
-  background: linear-gradient(
-    90deg,
-    rgba(249, 157, 149, 1) 20%,
-    rgba(218, 107, 115, 1) 50%,
-    rgba(207, 99, 103, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f99d95",endColorstr="#cf6367",GradientType=1);
+  background: linear-gradient(90deg, #6a92f2 20%, #79caf9 50%, #b0def8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6a92f2",endColorstr="#b0def8",GradientType=1);
 }
 
 .weatherContainer .cityName {
@@ -36,13 +31,12 @@
   margin: 0 15px;
   padding: 10px 50px;
   transition: 0.3s all ease;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
-    0 0 40px rgba(128, 128, 128, 0.1) inset;
+  box-shadow: 0 1px 4px #2356ce, 0 0 40px #d3d3d8 inset;
 }
 
 .WeatherBody:hover {
   cursor: pointer;
-  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.5);
+  box-shadow: 0 15px 10px -10px #3859a7;
 }
 
 @media (min-width: 1399px) {
