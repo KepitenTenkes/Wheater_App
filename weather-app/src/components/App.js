@@ -68,15 +68,40 @@ class App extends React.Component {
         </React.Fragment>
         <div className="weatherContainer pt-3 pb-3">
           <h5 className="cityName">{this.state.city}</h5>
-          <WeatherBody day={"Mon"} icon={"Sun"} minTemp={15} maxTemp={25} />
-          <WeatherBody day={"Tue"} icon={"Mistake"} minTemp={5} maxTemp={10} />
-          <WeatherBody day={"Wed"} icon={"Snowing"} minTemp={0} maxTemp={-5} />
-          <WeatherBody day={"Thu"} icon={"Rain"} minTemp={12} maxTemp={14} />
+          <WeatherBody
+            day={"Mon"}
+            icon={icon[0]}
+            minTemp={minTemp[0]}
+            maxTemp={maxTemp[0]}
+            description={description[0]}
+          />
+          <WeatherBody
+            day={"Tue"}
+            icon={icon[1]}
+            minTemp={minTemp[1]}
+            maxTemp={maxTemp[1]}
+            description={description[1]}
+          />
+          <WeatherBody
+            day={"Wed"}
+            icon={icon[2]}
+            minTemp={minTemp[2]}
+            maxTemp={maxTemp[2]}
+            description={description[2]}
+          />
+          <WeatherBody
+            day={"Thu"}
+            icon={icon[3]}
+            minTemp={minTemp[3]}
+            maxTemp={maxTemp[3]}
+            description={description[3]}
+          />
           <WeatherBody
             day={"Fri"}
-            icon={"Snowing"}
-            minTemp={-10}
-            maxTemp={-22}
+            icon={icon[4]}
+            minTemp={minTemp[4]}
+            maxTemp={maxTemp[4]}
+            description={description[4]}
           />
         </div>
       </div>

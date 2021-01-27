@@ -9,7 +9,11 @@ const WeatherBody = (props) => {
     <div className="WeatherBody card">
       <Days day={props.day} />
       <Icon icon={props.icon} />
-      <Temp minTemp={props.minTemp} maxTemp={props.maxTemp} />
+      <Temp
+        minTemp={props.minTemp}
+        maxTemp={props.maxTemp}
+        description={props.description}
+      />
     </div>
   );
 };
