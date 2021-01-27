@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Potta+One&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100&family=Noto+Sans+JP:wght@300&display=swap");
 
 .Days {
-  font-family: "Concert One", cursive;
-  color: #959595;
-  font-size: 30px;
+  font-family: "Noto Sans HK", sans-serif;
+  color: #85b9b6;
+  font-size: 18px;
   margin: 15px 0;
 }

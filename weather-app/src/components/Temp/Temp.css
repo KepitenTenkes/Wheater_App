@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100&family=Noto+Sans+JP:wght@500&display=swap");
+
 .Temp {
+  font-family: "Noto Sans JP", sans-serif;
   margin: 18px 0;
-  font-size: 14px;
-  color: #212529;
+  font-size: 18px;
+  color: #000000;
 }
 
 .Temp span {

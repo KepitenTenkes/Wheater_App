@@ -23,15 +23,14 @@ class SearchBar extends React.Component {
     return (
       <div className="SearchBar">
         <div className="SearchBarChilds">
-          <h5 className="text-white">Search weather on your city</h5>
-
+          <h4 className="text-white">Please enter city</h4>
           <form onSubmit={this.onSubmit} className="formSearchCity">
             <input
               type="text"
               name="city"
               id="inputSeacrhCity"
               onChange={this.onChange}
-              placeholder="Search City..."
+              placeholder="Search location"
             />
             <button type="submit" className="btn btn-outline-info text-white">
               Search
