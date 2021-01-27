@@ -5,7 +5,6 @@ import weather from "../apis/api";
 import WeatherBody from "./WeatherBody/WeatherBody";
 import Loader from "./Loader/Loader";
 import SearchBar from "./SearchBar/SearchBar";
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -36,9 +35,9 @@ class App extends React.Component {
       });
   };
 
-  render() {
-    // Methods
+  // Methods
 
+  render() {
     const minTemp = this.state.temp.map((el) => {
       return parseInt(el.low_temp);
     });

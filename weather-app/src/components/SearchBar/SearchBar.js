@@ -5,11 +5,6 @@ class SearchBar extends React.Component {
   state = {
     city: "",
   };
-  componentDidUpdate(prevProps, prevState) {
-    if (prevState !== this.state.city) {
-      this.setState({ city: this.state.city });
-    }
-  }
 
   onSubmit = (e) => {
     e.preventDefault();

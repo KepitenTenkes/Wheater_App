@@ -29,15 +29,12 @@ const Icon = (props) => {
     case 600:
       return <img className="icon" src={Snowing} alt={Snowing} />;
       break;
-    default:
     case 601:
       return <img className="icon" src={Snowing} alt={Snowing} />;
       break;
-    default:
     case 602:
       return <img className="icon" src={Snowing} alt={Snowing} />;
       break;
-    default:
     case 610:
       return <img className="icon" src={Snowing} alt={Snowing} />;
       break;
